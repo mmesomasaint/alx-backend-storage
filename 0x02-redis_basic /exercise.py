@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+
 """Module declares a redis class and methods"""
 import redis
 from uuid import uuid4
@@ -91,3 +92,4 @@ class Cache:
         except Exception:
             value = 0
         return value
+
